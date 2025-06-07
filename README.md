@@ -3,11 +3,11 @@ A futuristic, theoretical framework for a data storage system that expands capac
 
 ### Features
 
-Time-forward multiplexed data storage
-Error-correcting codes integrated for robustness
-Distributed consensus to handle noisy or missing data
-Priority-based data cycling for efficient storage management
-Modular design allowing prototyping in Python and optimization in lower-level languages
+- Time-forward multiplexed data storage
+- Error-correcting codes integrated for robustness
+- Distributed consensus to handle noisy or missing data
+- Priority-based data cycling for efficient storage management
+- Modular design allowing prototyping in Python and optimization in lower-level languages
 
 ## Getting Started
 
