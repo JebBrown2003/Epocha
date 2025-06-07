@@ -1,7 +1,7 @@
 # Epocha
 A futuristic, theoretical framework for a data storage system that expands capacity by sending and retrieving information through controlled points in time.
 
-Features
+### Features
 
 Time-forward multiplexed data storage
 Error-correcting codes integrated for robustness
