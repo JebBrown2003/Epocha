@@ -52,5 +52,5 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 ## Contact
 
-Jeb Brown — will add later...
-Project Link: https://github.com/JebBrown2003/Epocha
+- Jeb Brown — will add later...
+- Project Link: https://github.com/JebBrown2003/Epocha
