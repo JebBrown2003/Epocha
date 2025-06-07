@@ -1,5 +1,22 @@
 # Epocha
+
 A futuristic, theoretical framework for a data storage system that expands capacity by sending and retrieving information through controlled points in time.
+
+### Concept
+
+Imagine a computer with the ability to store data, recieve messages, and send messages to addresses at any point in the future. This framework would allow the computer to extend it's memory beyond it's actual physical storage capacity. 
+
+Say the computer has a 64 bit integer in memory called x and it wants to store another 64 bit interger y. However, it has no more available memory. The protocol would go as follows: 
+
+- Send a message to its own address containing x at some point in the future (say 1 minute)
+- Erase x from it's memory and store y
+- Hold on to y for as long as it needs it (up to 1 minute)
+- Send another message to itself 1 minute in the future containing y
+- Clear y from it's memory
+- Receive the message containing x and store it in memory
+- Repeat :repeat:
+
+Obviously, this requires the ability to _literally_ send messages into the future, which, as of June 7th, 2025, does not exist. As a result, this project is purely a thought experiment. But maybe one day the technology will catch up and this will become a legitimate tool for data storage. Much like the delorean was invented before the flux capacitor. 😄
 
 ### Features
 
@@ -20,6 +37,7 @@ A futuristic, theoretical framework for a data storage system that expands capac
 ```
 git clone https://github.com/JebBrown2003/Epocha.git
 cd Epocha
+
 # Install Python dependencies
 pip install -r requirements.txt
 ```
@@ -27,9 +45,9 @@ pip install -r requirements.txt
 ### Usage
 
 ```
-from timebit import TimebitStorage
+from Epocha import EpochaStorage
 
-storage = TimebitStorage(slot_duration_ms=100)
+storage = EpochaStorage(slot_duration_ms=100)
 storage.store(data=0b1101)
 retrieved = storage.retrieve()
 print(f"Retrieved data: {retrieved}")
