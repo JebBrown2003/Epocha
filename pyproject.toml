@@ -1,0 +1,20 @@
+[project]
+name = "Epocha"
+version = "0.1.0"
+description = "A futuristic, theoretical framework for a data storage system that expands capacity by sending and retrieving information through controlled points in time."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "Jeb Brown", email = "jeb@example.com"}
+]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/JebBrown2003/Epocha"
+Repository = "https://github.com/JebBrown2003/Epocha"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
