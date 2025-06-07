@@ -12,14 +12,14 @@ A futuristic, theoretical framework for a data storage system that expands capac
 ## Getting Started
 
 ### Prerequisites
-Python 3.x (for prototyping)
-[Optional] Rust or C/C++ compiler (for optimized modules)
+- Python 3.x (for prototyping)
+- [Optional] Rust or C/C++ compiler (for optimized modules)
 
 ### Installation
 
 ```
-git clone https://github.com/yourusername/timebit.git
-cd timebit
+git clone https://github.com/JebBrown2003/Epocha.git
+cd Epocha
 # Install Python dependencies
 pip install -r requirements.txt
 ```
